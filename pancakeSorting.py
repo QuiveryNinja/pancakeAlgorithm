@@ -7,9 +7,6 @@ def SortPancakes():
     while i in pancakes:
         plate.append(pancakes[-1])
         pancakes.pop(-1)
-    for i in plate:
-        if i == 0:
-            plate.pop(i)
     
     return plate
 
